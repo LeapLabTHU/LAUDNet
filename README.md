@@ -1,8 +1,6 @@
 # LAUDNet
 
-This is the official PyTorch implementation of "**L**atency-**a**ware **U**nified **D**ynamic **Net**works for Efficient Image Recognition", which is the extension of our **NeurIPS 2022** paper: [Latency-Aware Spatial-wise Dynamic Networks](https://arxiv.org/abs/2210.06223). The original LASNet code is at [this URL](https://github.com/LeapLabTHU/LASNet).
-
-[arxiv link] (**TODO**)
+This is the official PyTorch implementation of "[**L**atency-**a**ware **U**nified **D**ynamic **Net**works for Efficient Image Recognition](https://arxiv.org/pdf/2308.15949.pdf)", which is the extension of our **NeurIPS 2022** paper: [Latency-Aware Spatial-wise Dynamic Networks](https://arxiv.org/abs/2210.06223). The original LASNet code is at [this URL](https://github.com/LeapLabTHU/LASNet).
 
 ## Introduction
 
