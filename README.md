@@ -11,7 +11,7 @@ We present ***Latency-aware Unified Dynamic Networks*** (LAUDNet), a unified fra
 This repo consists of three components: code for *[ImageNet classification](imagenet_classification)*, *[MMDetection detection &amp; segmentation](mmdetection-2.21.0)* and *[latency predictor](DyNetSimulator)*.
 
 ### ImageNet classification
-
+#### CNNs
 Main dependencies:
 
 - Python: 3.9
@@ -20,6 +20,10 @@ Main dependencies:
 - Timm: 0.6.12
 
 See a sample [training script](imagenet_classification/train_scripts.sh) for training details.
+
+#### Vision Transformers
+
+We implement the three dynamic-inference paradigms (i.e. token skipping, layer (block) skipping, and head (channel) skipping) based on the [AdaViT repo](https://www.github.com/MengLcool/AdaViT/tree/main).
 
 ### MMDetection detection & segmentation
 
@@ -37,7 +41,7 @@ See a sample [evaluation script](DyNetSimulator/eval_example.py) for evaluation 
 
 ## Performance
 
-<img src="./assets/laudnet.PNG" alt="fig1"/>
+<img src="./assets/laudnet_main_results.png" alt="fig1"/>
 
 ## Model Zoo
 
@@ -48,7 +52,18 @@ See a sample [evaluation script](DyNetSimulator/eval_example.py) for evaluation 
 
 ## Citation
 
-**TODO**
+```bibtex
+@misc{han2024latencyaware,
+      title={Latency-aware Unified Dynamic Networks for Efficient Image Recognition}, 
+      author={Yizeng Han and Zeyu Liu and Zhihang Yuan and Yifan Pu and Chaofei Wang and Shiji Song and Gao Huang},
+      year={2024},
+      eprint={2308.15949},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+
 
 ## Contact
 
