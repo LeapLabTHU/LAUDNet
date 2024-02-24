@@ -27,6 +27,8 @@ We implement the three dynamic-inference paradigms (i.e. token skipping, layer (
 
 ### MMDetection detection & segmentation
 
+#### RetinaNet, Faster-RCNN and MaskRCNN
+
 Prerequisites:
 
 1. Prepare an ImageNet pretrained LAUDNet model.
@@ -34,6 +36,15 @@ Prerequisites:
 3. Replace corresponding files in your mmcv environment with files in [`mmcv_replace_file`](mmdetection-2.21.0/mmcv_replace_file).
 
 See a sample [training script](mmdetection-2.21.0/tools/scripts_LAUDNet.sh) for training details.
+
+#### DDQ-DETR and Mask2Former
+
+Prerequisites:
+
+1. Prepare an ImageNet pretrained LAUDNet model.
+2. Setup a MMDetection-3.3.0 environment.
+
+See a sample [training script](mmdetection-3.3.0/tools/scripts_LAUDNet.sh) for training details.
 
 ### Latency predictor
 
