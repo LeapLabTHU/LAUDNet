@@ -64,13 +64,15 @@ See a sample [evaluation script](DyNetSimulator/eval_example.py) for evaluation 
 ## Citation
 
 ```bibtex
-@misc{han2024latencyaware,
-      title={Latency-aware Unified Dynamic Networks for Efficient Image Recognition}, 
-      author={Yizeng Han and Zeyu Liu and Zhihang Yuan and Yifan Pu and Chaofei Wang and Shiji Song and Gao Huang},
-      year={2024},
-      eprint={2308.15949},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@ARTICLE{han2024latency,
+  author={Han, Yizeng and Liu, Zeyu and Yuan, Zhihang and Pu, Yifan and Wang, Chaofei and Song, Shiji and Huang, Gao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Latency-aware Unified Dynamic Networks for Efficient Image Recognition}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-17},
+  doi={10.1109/TPAMI.2024.3393530}
 }
 ```
 
