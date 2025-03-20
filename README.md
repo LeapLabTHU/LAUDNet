@@ -58,8 +58,8 @@ See a sample [evaluation script](DyNetSimulator/eval_example.py) for evaluation 
 
 | model                                  | Checkpoint Link                                                           |
 | -------------------------------------- | ------------------------------------------------------------------------- |
-| LAUD-ResNet101 channel-2222 target-0.5 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/13a660b58f1946a3b4f3/?dl=1) |
-| LAUD-ResNet101 layer target-0.5        | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/625cfe8f6f244c39a5db/?dl=1) |
+| LAUD-ResNet101 channel-2222 target-0.5 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/94cce94acd6a4b4fbd2b/?dl=1) |
+| LAUD-ResNet101 layer target-0.5        | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/9b5fc0cab64b4ed2badb/?dl=1) |
 
 ## Citation
 
@@ -84,7 +84,7 @@ If you have any questions, please feel free to contact the authors.
 
 Yizeng Han: [hanyz18@mails.tsinghua.edu.cn](mailto:hanyz18@mails.tsinghua.edu.cn), [yizeng38@gmail.com](mailto:yizeng38@gmail.com).
 
-Zeyu Liu: [liuzeyu20@mails.tsinghua.edu.cn](mailto:liuzeyu20@mails.tsinghua.edu.cn), [liuzeyu0020@gmail.com](mailto:liuzeyu0020@gmail.com).
+Zeyu Liu: [liuzeyu24@mails.tsinghua.edu.cn](mailto:liuzeyu24@mails.tsinghua.edu.cn), [liuzeyu0020@gmail.com](mailto:liuzeyu0020@gmail.com).
 
 Zhihang Yuan: [hahnyuan@gmail.com](mailto:hahnyuan@gmail.com).
 
